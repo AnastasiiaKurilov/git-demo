@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Load Department" parallel="tests" thread-count="2">
+
+    <parameter name="URL" value="carloan.com"/>  ← ✅ add this — matches @Parameters("URL")
+
+    <listeners>
+        <listener class-name="listeners.TestListeners"/>
+    </listeners>
+
+    <test name="Personal Loan">
+        <groups>
+            <run>
+                <include name="web"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="test.basics3"/>
+        </classes>
+    </test>
+</suite>

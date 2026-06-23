@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="6" total="9" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-14T21:29:13 MDT" name="Load Department" finished-at="2026-06-14T21:29:13 MDT" duration-ms="12">
+    <groups>
+      <group name="web">
+        <method signature="basics3.WebLogin(java.lang.String)[pri:0, instance:test.basics3@478190fc]" name="WebLogin" class="test.basics3"/>
+      </group> <!-- web -->
+    </groups>
+    <test started-at="2026-06-14T21:29:13 MDT" name="Personal Loan" finished-at="2026-06-14T21:29:13 MDT" duration-ms="9">
+      <class name="test.basics">
+        <test-method signature="demo(java.lang.String)[pri:0, instance:test.basics@31d7b7bf]" started-at="2026-06-14T21:29:13 MDT" name="demo" finished-at="2026-06-14T21:29:13 MDT" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loanportal.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- demo -->
+      </class> <!-- test.basics -->
+    </test> <!-- Personal Loan -->
+    <test started-at="2026-06-14T21:29:13 MDT" name="Car Loan" finished-at="2026-06-14T21:29:13 MDT" duration-ms="12">
+      <class name="test.basics3">
+        <test-method is-config="true" signature="before1()[pri:0, instance:test.basics3@478190fc]" started-at="2026-06-14T21:29:13 MDT" name="before1" finished-at="2026-06-14T21:29:13 MDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- before1 -->
+        <test-method is-config="true" signature="beforemethid()[pri:0, instance:test.basics3@478190fc]" started-at="2026-06-14T21:29:13 MDT" name="beforemethid" finished-at="2026-06-14T21:29:13 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethid -->
+        <test-method signature="ApiLogin()[pri:0, instance:test.basics3@478190fc]" started-at="2026-06-14T21:29:13 MDT" name="ApiLogin" finished-at="2026-06-14T21:29:13 MDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApiLogin -->
+        <test-method is-config="true" signature="aftermethid()[pri:0, instance:test.basics3@478190fc]" started-at="2026-06-14T21:29:13 MDT" name="aftermethid" finished-at="2026-06-14T21:29:13 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethid -->
+        <test-method signature="WebLogin(java.lang.String)[pri:0, instance:test.basics3@478190fc]" started-at="2026-06-14T21:29:13 MDT" name="WebLogin" finished-at="2026-06-14T21:29:13 MDT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[loanportal.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WebLogin -->
+        <test-method is-config="true" signature="beforemethid()[pri:0, instance:test.basics3@478190fc]" started-at="2026-06-14T21:29:13 MDT" name="beforemethid" finished-at="2026-06-14T21:29:13 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforemethid -->
+        <test-method is-config="true" signature="aftermethid()[pri:0, instance:test.basics3@478190fc]" started-at="2026-06-14T21:29:13 MDT" name="aftermethid" finished-at="2026-06-14T21:29:13 MDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftermethid -->
+      </class> <!-- test.basics3 -->
+    </test> <!-- Car Loan -->
+  </suite> <!-- Load Department -->
+</testng-results>

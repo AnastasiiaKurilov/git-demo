@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Load Department" parallel="tests" thread-count="2">
+    <test name="Personal Loan" enabled="true" >
+        <parameter name="URL" value="loanportal.com"/>
+    <classes>
+        <class name="test.basics">
+            <methods>
+                <include name="demo">
+
+                </include>
+            </methods>
+        </class>
+
+    </classes>
+</test>
+
+
+
+    <test name="Car Loan" enabled="true">
+        <parameter name="URL" value="loanportal.com"></parameter>
+        <classes>
+            <class name="test.basics3">
+<methods>
+ <exclude name="Mobile.*">-->
+  </exclude>
+
+</methods>
+            </class>
+        </classes>
+
+
+
+
+    </test>
+    <test name="Home Loan" enabled="false">
+        <classes>
+            <class name="test.basics4"/>
+        </classes>
+    </test>
+</suite>
